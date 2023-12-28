@@ -1,0 +1,31 @@
+{
+  "name": "@auth/main",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "dev.ecosystem.config.js",
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22"
+  },
+  "scripts": {
+    "lint:fix": "lerna run lint:fix"
+  },
+  "author": "Sobchuk O",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "10.1.0",
+    "update-browserslist-db": "1.0.10"
+  },
+  "workspaces": [
+    "back",
+    "front"
+  ],
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "lerna": "4.0.0",
+    "pm2": "5.1.2",
+    "update-browserslist-db": "1.0.10"
+  }
+
+}
