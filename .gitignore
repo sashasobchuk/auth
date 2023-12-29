@@ -35,8 +35,6 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 #IDE - Webshtorm
-.idea
-
 **/build
 
 

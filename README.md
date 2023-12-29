@@ -11,6 +11,7 @@ yarn
 yarn pm2 start dev.ecosystem.config.js
 
 <h3> start db</h3>
+cd ./back
 
 docker-compose build
 
