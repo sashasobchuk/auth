@@ -2,8 +2,8 @@ import { DynamicModule } from '@nestjs/common';
 
 import * as entities from './entities';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import * as dotenv from 'dotenv';
-dotenv.config();
+// import * as dotenv from 'dotenv';
+// dotenv.config();
 
 async function getTypeOrmModule(): Promise<DynamicModule> {
   console.log(`1111111`,process.env.PGPORT)
